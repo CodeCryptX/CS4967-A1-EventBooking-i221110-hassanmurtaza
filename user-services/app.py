@@ -1,25 +1,26 @@
-from flask import Flask, jsonify, request
-from flask_sqlalchemy import SQLAlchemy
-from dotenv import load_dotenv
-import os
-
-load_dotenv()
-app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv('POSTGRES_URI')
-db = SQLAlchemy(app)
-
-class User(db.Model):
-    id = db.Column(db.Integer, primary_key=True)
-    email = db.Column(db.String(120), unique=True)
-    password = db.Column(db.String(80))
+from flask import Flask, request, jsonify
+from db import app, db
+from models import User
+from werkzeug.security import generate_password_hash
 
 @app.route('/register', methods=['POST'])
-def register():
-    data = request.json
-    new_user = User(email=data['email'], password=data['password'])
-    db.session.add(new_user)
-    db.session.commit()
-    return jsonify({"message": "User created"}), 201
+def register_user():
+    try:
+        data = request.json
+        if not data.get("name") or not data.get("email") or not data.get("password"):
+            return jsonify({"error": "All fields are required"}), 400
+
+        hashed_password = generate_password_hash(data['password'])
+
+        user = User(name=data['name'], email=data['email'], password=hashed_password)
+        db.session.add(user)
+        db.session.commit()
+
+        return jsonify({"message": "User registered successfully"}), 201
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
 
 if __name__ == '__main__':
-    app.run(port=5000)
+    db.create_all()
+    app.run(debug=True, port=5001)
