@@ -5,7 +5,7 @@ from flask_login import login_user, logout_user, login_required, current_user
 from werkzeug.security import generate_password_hash, check_password_hash
 from sqlalchemy.exc import IntegrityError
 
-# ✅ Global Error Handlers
+#Global Error Handlers
 @app.errorhandler(404)
 def not_found_error(error):
     logger.warning(f"404 Error: {request.url} not found")
@@ -16,7 +16,7 @@ def internal_server_error(error):
     logger.error(f"500 Error at {request.url}: {str(error)}")
     return jsonify({"error": "Internal server error"}), 500
 
-# ✅ User Registration with Error Handling
+# User Registration with Error Handling
 @app.route('/register', methods=['POST'])
 def register_user():
     try:
@@ -43,7 +43,7 @@ def register_user():
         logger.exception("Unexpected error during registration")
         return jsonify({"error": str(e)}), 500
 
-# ✅ User Login with Logging
+# User Login with Logging
 @app.route('/login', methods=['POST'])
 def login():
     try:
@@ -67,7 +67,7 @@ def login():
         logger.exception("Unexpected error during login")
         return jsonify({"error": str(e)}), 500
 
-# ✅ Get User Profile with Logging
+# Get User Profile with Logging
 @app.route('/profile', methods=['GET'])
 @login_required
 def get_profile():
@@ -83,7 +83,7 @@ def get_profile():
         logger.exception("Unexpected error while fetching profile")
         return jsonify({"error": str(e)}), 500
 
-# ✅ Logout User with Logging
+# Logout User with Logging
 @app.route('/logout', methods=['POST'])
 @login_required
 def logout():
@@ -96,7 +96,7 @@ def logout():
         logger.exception("Unexpected error during logout")
         return jsonify({"error": str(e)}), 500
 
-# ✅ Update User Profile with Error Handling
+# Update User Profile with Error Handling
 @app.route('/profile', methods=['PUT'])
 @login_required
 def update_profile():
@@ -117,7 +117,7 @@ def update_profile():
         logger.exception("Unexpected error during profile update")
         return jsonify({"error": str(e)}), 500
 
-# ✅ Delete User Profile with Logging
+# Delete User Profile with Logging
 @app.route('/profile', methods=['DELETE'])
 @login_required
 def delete_profile():
