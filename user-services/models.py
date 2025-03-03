@@ -2,12 +2,14 @@ from db import db, login_manager
 from flask_login import UserMixin
 from werkzeug.security import generate_password_hash, check_password_hash
 
-# User Model
 class User(UserMixin, db.Model):
+    __tablename__ = "user"  # ✅ Explicitly define the table name
+
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(100), nullable=False)
     email = db.Column(db.String(100), unique=True, nullable=False)
     password = db.Column(db.String(255), nullable=False)
+
 
     @staticmethod
     def hash_password(password):

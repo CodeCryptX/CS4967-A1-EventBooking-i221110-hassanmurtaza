@@ -1,0 +1,114 @@
+2025-03-03 16:07:03,092 - INFO - User Service Started
+2025-03-03 16:08:38,935 - INFO - User Service Started
+2025-03-03 16:08:38,991 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-03-03 16:08:38,992 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-03 16:08:38,994 - INFO -  * Restarting with stat
+2025-03-03 16:08:39,621 - INFO - User Service Started
+2025-03-03 16:08:39,639 - WARNING -  * Debugger is active!
+2025-03-03 16:08:39,647 - INFO -  * Debugger PIN: 110-796-737
+2025-03-03 16:20:14,077 - INFO - User Service Started
+2025-03-03 16:20:14,113 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-03-03 16:20:14,114 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-03 16:20:14,115 - INFO -  * Restarting with stat
+2025-03-03 16:20:14,760 - INFO - User Service Started
+2025-03-03 16:20:14,779 - WARNING -  * Debugger is active!
+2025-03-03 16:20:14,782 - INFO -  * Debugger PIN: 110-796-737
+2025-03-03 16:25:08,214 - INFO -  * Detected change in 'E:\\microservices\\user-services\\app.py', reloading
+2025-03-03 16:25:08,310 - INFO -  * Restarting with stat
+2025-03-03 16:25:09,021 - INFO - User Service Started
+2025-03-03 16:25:09,041 - WARNING -  * Debugger is active!
+2025-03-03 16:25:09,044 - INFO -  * Debugger PIN: 110-796-737
+2025-03-03 16:25:12,153 - INFO - User Service Started
+2025-03-03 16:25:12,188 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-03-03 16:25:12,188 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-03 16:25:12,190 - INFO -  * Restarting with stat
+2025-03-03 16:25:12,863 - INFO - User Service Started
+2025-03-03 16:25:12,883 - WARNING -  * Debugger is active!
+2025-03-03 16:25:12,885 - INFO -  * Debugger PIN: 110-796-737
+2025-03-03 16:33:54,954 - INFO - User Service Started
+2025-03-03 16:33:54,999 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-03-03 16:33:54,999 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-03 16:33:55,001 - INFO -  * Restarting with stat
+2025-03-03 16:33:55,974 - INFO - User Service Started
+2025-03-03 16:33:56,004 - WARNING -  * Debugger is active!
+2025-03-03 16:33:56,007 - INFO -  * Debugger PIN: 110-796-737
+2025-03-03 16:36:22,186 - INFO - User Service Started
+2025-03-03 16:36:22,220 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-03-03 16:36:22,220 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-03 16:36:22,221 - INFO -  * Restarting with stat
+2025-03-03 16:36:22,957 - INFO - User Service Started
+2025-03-03 16:36:22,977 - WARNING -  * Debugger is active!
+2025-03-03 16:36:22,979 - INFO -  * Debugger PIN: 110-796-737
+2025-03-03 16:42:11,821 - INFO - User Service Started
+2025-03-03 16:42:11,857 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-03-03 16:42:11,858 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-03 16:42:11,860 - INFO -  * Restarting with stat
+2025-03-03 16:42:12,537 - INFO - User Service Started
+2025-03-03 16:42:12,558 - WARNING -  * Debugger is active!
+2025-03-03 16:42:12,561 - INFO -  * Debugger PIN: 110-796-737
+2025-03-03 16:45:50,414 - INFO - User Service Started
+2025-03-03 16:45:50,449 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-03-03 16:45:50,449 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-03 16:45:50,450 - INFO -  * Restarting with stat
+2025-03-03 16:45:51,156 - INFO - User Service Started
+2025-03-03 16:45:51,178 - WARNING -  * Debugger is active!
+2025-03-03 16:45:51,181 - INFO -  * Debugger PIN: 110-796-737
+2025-03-03 16:45:53,413 - WARNING - 404 Error: http://localhost:5001/ not found
+2025-03-03 16:45:53,413 - INFO - 127.0.0.1 - - [03/Mar/2025 16:45:53] "[33mGET / HTTP/1.1[0m" 404 -
+2025-03-03 16:46:00,416 - ERROR - Unexpected error during registration
+Traceback (most recent call last):
+  File "C:\Users\Shekhani Laptops\AppData\Local\Programs\Python\Python312\Lib\site-packages\werkzeug\wrappers\request.py", line 611, in get_json
+    rv = self.json_module.loads(data)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shekhani Laptops\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\json\provider.py", line 187, in loads
+    return json.loads(s, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shekhani Laptops\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shekhani Laptops\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shekhani Laptops\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\microservices\user-services\app.py", line 23, in register_user
+    data = request.json
+           ^^^^^^^^^^^^
+  File "C:\Users\Shekhani Laptops\AppData\Local\Programs\Python\Python312\Lib\site-packages\werkzeug\wrappers\request.py", line 560, in json
+    return self.get_json()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Shekhani Laptops\AppData\Local\Programs\Python\Python312\Lib\site-packages\werkzeug\wrappers\request.py", line 620, in get_json
+    rv = self.on_json_loading_failed(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shekhani Laptops\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\wrappers.py", line 214, in on_json_loading_failed
+    return super().on_json_loading_failed(e)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shekhani Laptops\AppData\Local\Programs\Python\Python312\Lib\site-packages\werkzeug\wrappers\request.py", line 645, in on_json_loading_failed
+    raise BadRequest(f"Failed to decode JSON object: {e}")
+werkzeug.exceptions.BadRequest: 400 Bad Request: Failed to decode JSON object: Expecting value: line 1 column 1 (char 0)
+2025-03-03 16:46:00,463 - INFO - 127.0.0.1 - - [03/Mar/2025 16:46:00] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2025-03-03 16:49:45,378 - INFO - 127.0.0.1 - - [03/Mar/2025 16:49:45] "[31m[1mPOST /register HTTP/1.1[0m" 409 -
+2025-03-03 16:50:17,794 - INFO - New user registered: jhn@example.com
+2025-03-03 16:50:17,795 - INFO - 127.0.0.1 - - [03/Mar/2025 16:50:17] "[35m[1mPOST /register HTTP/1.1[0m" 201 -
+2025-03-03 16:54:24,144 - INFO - User logged in: jhn@example.com
+2025-03-03 16:54:24,145 - INFO - 127.0.0.1 - - [03/Mar/2025 16:54:24] "POST /login HTTP/1.1" 200 -
+2025-03-03 16:54:35,134 - INFO - Fetching profile for user: jhn@example.com
+2025-03-03 16:54:35,136 - INFO - 127.0.0.1 - - [03/Mar/2025 16:54:35] "GET /profile HTTP/1.1" 200 -
+2025-03-03 16:54:48,742 - INFO - User profile updated: jhnsmith@example.com
+2025-03-03 16:54:48,742 - INFO - 127.0.0.1 - - [03/Mar/2025 16:54:48] "PUT /profile HTTP/1.1" 200 -
+2025-03-03 16:54:57,533 - INFO - User logged out: jhnsmith@example.com
+2025-03-03 16:54:57,534 - INFO - 127.0.0.1 - - [03/Mar/2025 16:54:57] "POST /logout HTTP/1.1" 200 -
+2025-03-03 16:55:04,380 - INFO - User deleted: jhnsmith@example.com
+2025-03-03 16:55:04,381 - INFO - 127.0.0.1 - - [03/Mar/2025 16:55:04] "DELETE /profile HTTP/1.1" 200 -
