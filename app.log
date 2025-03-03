@@ -10,3 +10,64 @@
 2025-03-02 23:53:23,800 - INFO - New user registered: john@example.com
 2025-03-02 23:53:23,800 - INFO - 127.0.0.1 - - [02/Mar/2025 23:53:23] "[35m[1mPOST /register HTTP/1.1[0m" 201 -
 2025-03-02 23:53:30,831 - INFO - 127.0.0.1 - - [02/Mar/2025 23:53:30] "[31m[1mPOST /register HTTP/1.1[0m" 409 -
+2025-03-03 16:09:08,072 - INFO - User Service Started
+2025-03-03 16:09:08,106 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-03-03 16:09:08,106 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-03 16:09:08,108 - INFO -  * Restarting with stat
+2025-03-03 16:09:08,746 - INFO - User Service Started
+2025-03-03 16:09:08,765 - WARNING -  * Debugger is active!
+2025-03-03 16:09:08,768 - INFO -  * Debugger PIN: 110-796-737
+2025-03-03 16:09:23,539 - INFO - User Service Started
+2025-03-03 16:09:23,574 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-03-03 16:09:23,574 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-03 16:09:23,575 - INFO -  * Restarting with stat
+2025-03-03 16:09:24,283 - INFO - User Service Started
+2025-03-03 16:09:24,306 - WARNING -  * Debugger is active!
+2025-03-03 16:09:24,308 - INFO -  * Debugger PIN: 110-796-737
+2025-03-03 16:10:22,371 - INFO - User Service Started
+2025-03-03 16:10:22,408 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-03-03 16:10:22,408 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-03 16:10:22,410 - INFO -  * Restarting with stat
+2025-03-03 16:10:23,214 - INFO - User Service Started
+2025-03-03 16:10:23,239 - WARNING -  * Debugger is active!
+2025-03-03 16:10:23,242 - INFO -  * Debugger PIN: 110-796-737
+2025-03-03 16:13:44,066 - INFO -  * Detected change in 'e:\\microservices\\user-services\\app.py', reloading
+2025-03-03 16:13:44,145 - INFO -  * Restarting with stat
+2025-03-03 16:16:13,885 - INFO - User Service Started
+2025-03-03 16:16:13,916 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-03-03 16:16:13,916 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-03 16:16:13,917 - INFO -  * Restarting with stat
+2025-03-03 16:16:14,560 - INFO - User Service Started
+2025-03-03 16:16:14,579 - WARNING -  * Debugger is active!
+2025-03-03 16:16:14,581 - INFO -  * Debugger PIN: 110-796-737
+2025-03-03 16:17:24,207 - INFO - User Service Started
+2025-03-03 16:17:24,246 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-03-03 16:17:24,246 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-03 16:17:24,248 - INFO -  * Restarting with stat
+2025-03-03 16:17:25,031 - INFO - User Service Started
+2025-03-03 16:17:25,054 - WARNING -  * Debugger is active!
+2025-03-03 16:17:25,057 - INFO -  * Debugger PIN: 123-286-338
+2025-03-03 16:17:41,714 - INFO - User Service Started
+2025-03-03 16:17:41,751 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-03-03 16:17:41,751 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-03 16:17:41,753 - INFO -  * Restarting with stat
+2025-03-03 16:17:42,528 - INFO - User Service Started
+2025-03-03 16:17:42,549 - WARNING -  * Debugger is active!
+2025-03-03 16:17:42,552 - INFO -  * Debugger PIN: 110-796-737
+2025-03-03 16:17:49,292 - INFO - User Service Started
+2025-03-03 16:17:49,337 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-03-03 16:17:49,337 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-03 16:17:49,338 - INFO -  * Restarting with stat
+2025-03-03 16:17:50,240 - INFO - User Service Started
+2025-03-03 16:17:50,267 - WARNING -  * Debugger is active!
+2025-03-03 16:17:50,270 - INFO -  * Debugger PIN: 110-796-737
+2025-03-03 16:18:11,340 - WARNING - 404 Error: http://localhost:5001/ not found
+2025-03-03 16:18:11,342 - INFO - 127.0.0.1 - - [03/Mar/2025 16:18:11] "[33mGET / HTTP/1.1[0m" 404 -
+2025-03-03 16:18:21,474 - INFO - 127.0.0.1 - - [03/Mar/2025 16:18:21] "[32mGET /profile HTTP/1.1[0m" 302 -

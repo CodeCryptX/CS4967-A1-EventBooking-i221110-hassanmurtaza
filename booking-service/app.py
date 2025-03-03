@@ -1,28 +1,16 @@
-from flask import Flask, jsonify, request
-import pika
-import requests
-from dotenv import load_dotenv
-import os
+from flask import Flask
+from db import init_db, db
+from routes import init_routes
 
-load_dotenv()
 app = Flask(__name__)
 
-# Sync call to Event Service
-@app.route('/bookings', methods=['POST'])
-def create_booking():
-    event_id = request.json['event_id']
-    response = requests.get(f'http://localhost:5001/events/{event_id}/availability')
-    if response.status_code != 200:
-        return jsonify({"error": "Event not available"}), 400
-    
-    # Publish to RabbitMQ (Async)
-    connection = pika.BlockingConnection(pika.ConnectionParameters('localhost'))
-    channel = connection.channel()
-    channel.queue_declare(queue='notifications')
-    channel.basic_publish(exchange='', routing_key='notifications', body='{"booking_id": 123, "status": "CONFIRMED"}')
-    connection.close()
-    
-    return jsonify({"message": "Booking confirmed"}), 201
+# Initialize Database
+init_db(app)
 
-if __name__ == '__main__':
-    app.run(port=5002)
+# Register Routes
+init_routes(app)
+
+if __name__ == "__main__":
+    with app.app_context():
+        db.create_all()  # Ensure tables are created
+    app.run(debug=True,port=5003)

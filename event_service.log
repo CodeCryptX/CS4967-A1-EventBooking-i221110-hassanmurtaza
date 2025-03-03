@@ -1,0 +1,43 @@
+2025-03-03 19:25:01,617 - WARNING -  * Debugger is active!
+2025-03-03 19:25:01,620 - INFO -  * Debugger PIN: 110-796-737
+2025-03-03 19:25:02,640 - INFO -  * Detected change in 'e:\\microservices\\event-service\\routes.py', reloading
+2025-03-03 19:25:03,455 - WARNING -  * Debugger is active!
+2025-03-03 19:25:03,458 - INFO -  * Debugger PIN: 110-796-737
+2025-03-03 19:25:19,977 - INFO - UpdateEvent: Event 3 updated
+2025-03-03 19:25:19,980 - INFO - 127.0.0.1 - - [03/Mar/2025 19:25:19] "PUT /events/3 HTTP/1.1" 200 -
+2025-03-03 19:25:21,669 - INFO - UpdateEvent: Event 3 updated
+2025-03-03 19:25:21,674 - INFO - 127.0.0.1 - - [03/Mar/2025 19:25:21] "PUT /events/3 HTTP/1.1" 200 -
+2025-03-03 19:25:22,848 - INFO - UpdateEvent: Event 3 updated
+2025-03-03 19:25:22,856 - INFO - 127.0.0.1 - - [03/Mar/2025 19:25:22] "PUT /events/3 HTTP/1.1" 200 -
+2025-03-03 19:25:23,717 - INFO - UpdateEvent: Event 3 updated
+2025-03-03 19:25:23,721 - INFO - 127.0.0.1 - - [03/Mar/2025 19:25:23] "PUT /events/3 HTTP/1.1" 200 -
+2025-03-03 19:25:24,542 - INFO - UpdateEvent: Event 3 updated
+2025-03-03 19:25:24,546 - INFO - 127.0.0.1 - - [03/Mar/2025 19:25:24] "PUT /events/3 HTTP/1.1" 200 -
+2025-03-03 19:25:25,304 - INFO - UpdateEvent: Event 3 updated
+2025-03-03 19:25:25,308 - INFO - 127.0.0.1 - - [03/Mar/2025 19:25:25] "PUT /events/3 HTTP/1.1" 200 -
+2025-03-03 19:25:26,164 - INFO - UpdateEvent: Event 3 updated
+2025-03-03 19:25:26,167 - INFO - 127.0.0.1 - - [03/Mar/2025 19:25:26] "PUT /events/3 HTTP/1.1" 200 -
+2025-03-03 19:25:26,768 - INFO - UpdateEvent: Event 3 updated
+2025-03-03 19:25:26,770 - INFO - 127.0.0.1 - - [03/Mar/2025 19:25:26] "PUT /events/3 HTTP/1.1" 200 -
+2025-03-03 19:25:27,223 - INFO - UpdateEvent: Event 3 updated
+2025-03-03 19:25:27,224 - INFO - 127.0.0.1 - - [03/Mar/2025 19:25:27] "PUT /events/3 HTTP/1.1" 200 -
+2025-03-03 19:25:27,629 - INFO - UpdateEvent: Event 3 updated
+2025-03-03 19:25:27,631 - INFO - 127.0.0.1 - - [03/Mar/2025 19:25:27] "PUT /events/3 HTTP/1.1" 200 -
+2025-03-03 19:25:28,034 - INFO - UpdateEvent: Event 3 updated
+2025-03-03 19:25:28,035 - INFO - 127.0.0.1 - - [03/Mar/2025 19:25:28] "PUT /events/3 HTTP/1.1" 200 -
+2025-03-03 19:25:28,580 - INFO - UpdateEvent: Event 3 updated
+2025-03-03 19:25:28,582 - INFO - 127.0.0.1 - - [03/Mar/2025 19:25:28] "PUT /events/3 HTTP/1.1" 200 -
+2025-03-03 19:25:28,925 - INFO - UpdateEvent: Event 3 updated
+2025-03-03 19:25:28,927 - INFO - 127.0.0.1 - - [03/Mar/2025 19:25:28] "PUT /events/3 HTTP/1.1" 200 -
+2025-03-03 19:25:29,238 - INFO - UpdateEvent: Event 3 updated
+2025-03-03 19:25:29,239 - INFO - 127.0.0.1 - - [03/Mar/2025 19:25:29] "PUT /events/3 HTTP/1.1" 200 -
+2025-03-03 19:25:29,676 - INFO - UpdateEvent: Event 3 updated
+2025-03-03 19:25:29,681 - INFO - 127.0.0.1 - - [03/Mar/2025 19:25:29] "PUT /events/3 HTTP/1.1" 200 -
+2025-03-03 19:25:29,929 - INFO - UpdateEvent: Event 3 updated
+2025-03-03 19:25:29,933 - INFO - 127.0.0.1 - - [03/Mar/2025 19:25:29] "PUT /events/3 HTTP/1.1" 200 -
+2025-03-03 19:25:30,284 - INFO - UpdateEvent: Event 3 updated
+2025-03-03 19:25:30,289 - INFO - 127.0.0.1 - - [03/Mar/2025 19:25:30] "PUT /events/3 HTTP/1.1" 200 -
+2025-03-03 19:25:30,594 - INFO - UpdateEvent: Event 3 updated
+2025-03-03 19:25:30,599 - INFO - 127.0.0.1 - - [03/Mar/2025 19:25:30] "PUT /events/3 HTTP/1.1" 200 -
+2025-03-03 19:25:30,939 - INFO - UpdateEvent: Event 3 updated
+2025-03-03 19:25:30,944 - INFO - 127.0.0.1 - - [03/Mar/2025 19:25:30] "PUT /events/3 HTTP/1.1" 200 -
